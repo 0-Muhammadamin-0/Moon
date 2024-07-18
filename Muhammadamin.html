@@ -3,27 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="icon" href="Site Icon Link"> -->
+    <link rel="icon" href="./images/site-logo.svg">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Site Title</title>
+    <title>MOON</title>
 </head>
-<body>
-    <header class="site-header">
-        <div class="container">
-            <div class="header"></div>
+<body class="moon-body">
+    <header class="moon-header">
+        <div class="moon">
+            <img class="moon__logo-img" src="./images/site-logo.svg" alt="Site logo">
+            <div class="moon__list-wrapper">
+                <ul class="moon__list">
+                    <li class="moon__item">
+                        <a class="moon__link" href="./index.html"><strong>00</strong> HOME</a>
+                    </li>
+                    <li class="moon__item">
+                        <a class="moon__link moon__change-box" href="./Muhammadamin.html"><strong>01</strong> DESTINATION</a>
+                    </li>
+                    <li class="moon__item">
+                        <a class="moon__link" href="./Nuriddin.html"><strong>02</strong> CREW</a>
+                    </li>
+                    <li class="moon__item">
+                        <a class="moon__link" href="#"><strong>03</strong> TECHNOLOGY</a>
+                    </li>
+                </ul>
+            </div>
+            <button onclick="handleMenuBtnClick()" class="header__menu-btn">
+                <img src="./images/hamburger.svg" alt="Menu Icon" width="28" height="17">
+            </button>
         </div>
+        <div class="moon-border-wrapper"></div>
+        <!-- <div class="navbar-menu navbar">
+            <div class="navbar__top">
+                <button onclick="handleCloseModal()" class="navbar__top-btn">
+                    <img src="./images/close-icon.svg" alt="Close Icon" width="22" height="23">
+                </button>
+            </div>
+            <ul class="navbar__list">
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Pricing</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">About</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__link" href="#">Contact</a>
+                </li>
+            </ul>
+            <a class="navbar__link-demo" href="#">Schedule a Demo</a>
+        </div> -->
     </header>
-    <main class="site-main">
-        <section class="hero-section">
+    <main class="moon-main">
+        <section class="moon-hero-section">
             <div class="container">
-                <div class="hero"></div>
+                <div class="moon-hero">
+                    <div class="moon-hero__subtitle-wrapper">
+                        <h3 class="moon-hero__subtitle"><strong class="moon-hero__change-clr">01</strong>Pick your destination</h3>
+                    </div>
+                    <div class="moon-hero__content">
+                        <img class="moon-hero__img" src="./images/moon.png" alt="moon img">
+                        <ul class="moon-hero__list">
+                            <li class="moon-hero__item">
+                                <ul class="moon-hero__nav-list">
+                                    <li class="moon-hero__nav-item">
+                                        <a class="moon-hero__link moon-hero__change-box" href="#">MOON</a>
+                                    </li>
+                                    <li class="moon-hero__nav-item">
+                                        <a class="moon-hero__link" href="#">MARS</a>
+                                    </li>
+                                    <li class="moon-hero__nav-item">
+                                        <a class="moon-hero__link" href="#">EUROPA</a>
+                                    </li>
+                                    <li class="moon-hero__nav-item">
+                                        <a class="moon-hero__link" href="#">TITAN</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="moon-hero__item">
+                                <h2 class="moon-hero__title">MOON</h2>
+                            </li>
+                            <li class="moon-hero__item">
+                                <p class="moon-hero__text">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+                            </li>
+                            <hr>
+                            <ul class="moon-hero__info">
+                                <li class="moon-hero__info-item">
+                                    <p class="moon-hero__info-text">AVG. DISTANCE</p>
+                                    <span class="moon-hero__info-subtect">384,400 KM</span>
+                                </li>
+                                <li class="moon-hero__info-item">
+                                    <p class="moon-hero__info-text">EST. TRAVEL TIME</p>
+                                    <span class="moon-hero__info-subtect">3 DAYS</span>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </section>
-    </main>
-    <footer class="site-footer">
-        <div class="container">
-            <div class="footer"></div>
-        </div>
-    </footer>
+    </main>    
+
+
+    <script src="./js/main.js"></script>
 </body>
 </html>
