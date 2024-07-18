@@ -1,0 +1,104 @@
+.Commander__body {
+    background-image: url(/images/21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color:#0B0D17;
+}
+
+.Commander {
+    margin:0 auto;
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    // border: 1px solid red;
+    margin-bottom: 78px;
+
+}
+.Commander__logo {
+    padding-left: 5px;
+}
+.Commander__header-span {
+    margin-left: 64px;
+    width: 473px;
+    border: 0.5px solid #FFFFFF;
+}
+.Commander__header-link {
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    padding: 20px  113px;
+    align-items: center;
+    padding-right: 50px;
+    background-color:#0B0D1790;  
+    transition: all 0.3s linear;
+    gap: 48px;
+    padding: 16px;
+
+}
+.Commander__header-item {
+    display: flex;
+    padding: 10px;
+    color:white;
+    transition: all 0.3s linear;
+}
+.Commander__header-item:hover{
+    color: antiquewhite;
+    border-bottom: 3px solid white;
+    padding-bottom: 22px;
+
+}
+.Commander-section {
+    display: flex;
+    color:white;
+
+}
+.Commander-section-str{
+    color:white;
+    margin-left: 220px;
+    margin-bottom: 154px;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 4.72px;
+
+}
+.container {
+    // margin-bottom: 154px;
+    display: flex;
+    gap: 81px;
+}
+.commander__list{
+    width: 488px;
+    margin-top: 154px;
+}
+.commander__list h2{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+.commander__list > h3{
+    color: rgb(255, 255, 255);
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: 0px;
+    margin-bottom: 26px;
+}
+.commander__list > P{
+    color: rgb(208, 214, 249);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    margin-bottom: 100px;
+}
+.Commander__hero {
+padding-bottom: 20px;
+}
