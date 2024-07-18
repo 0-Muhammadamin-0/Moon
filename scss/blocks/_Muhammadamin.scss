@@ -67,49 +67,7 @@ strong{
     background-color: #ffffffc4;
     z-index: 50;
 }
-// .navbar-menu{
-//     padding: 25px;
-//     position: fixed;
-//     width: 80%;
-//     height: 100vh;
-//     background-color: #1B262F;
-//     display: none;
-//     z-index: 50;
-//     top: 0;
-//     right: 100%;
-//     transition: all 0.3s linear;
-// }
-// .show{
-//     right: 0;
-// }
-// .navbar__top {
-//     text-align: end;
-//     padding: 23px 0 25px;
-//     border-bottom: 1px solid $white-clr;
-// }
-// .navbar__top-btn {
-//    background-color: transparent;
-//    border: none;
-// }
-// .navbar__list {
-//    padding: 43px 0 32px;
-//    @include Display($items:center, $space:center, $gap:32px);
-//    flex-direction: column;
-// }
-// .navbar__link {
-//    @include TextStyle($MB:0px, $FS:20px, $FW:700, $CLR:$white-clr, $LH:23px, $CASE:capitalize);
-//    transition: all 0.3s linear;
-//    &:hover{
-//        color: $title-clr;
-//    }
-// }
-// .navbar__link-demo {
-//    display: inline-block;
-//    @include ButtonStyle($BTN_W:100%, $BTN_PY:15px, $BTN_BG_CLR:$pink-clr,$BTN_BR_Radius:30px, $BTN_Border_CLR:transparent,$BTN_FS:16px,$BTN_FW:700, $BTN_LH:17px, $BTN_CLR:$white-clr,$BTN_CASE:inherit);
-//    &:hover{
-//        opacity: 75%;
-//    }
-// }
+
 
 @media (max-width: 1450px){
     .moon-border-wrapper{
@@ -185,7 +143,7 @@ strong{
 .moon-hero__content {
     display: flex;
     align-items: start;
-    justify-content: space-between;
+    gap: 206px;
 }
 .moon-hero__list {
     width: 445px;

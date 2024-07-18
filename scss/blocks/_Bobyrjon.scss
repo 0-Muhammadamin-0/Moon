@@ -139,7 +139,7 @@
     padding: 251px 0 130px;
 }
 .space-hero {
-    @include Display($items:center, $space:space-between, $gap:0px);
+    @include Display($items:center, $space:space-between, $gap:386px);
 }
 .space__hero-wrapper {
     width: 450px;
