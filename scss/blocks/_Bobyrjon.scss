@@ -136,9 +136,11 @@
 
 // hero
 .space-hero-section {
+
     padding: 251px 0 130px;
 }
 .space-hero {
+    margin: 0 auto;
     @include Display($items:center, $space:space-between, $gap:386px);
 }
 .space__hero-wrapper {
