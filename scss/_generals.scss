@@ -11,3 +11,28 @@ body{
     font-family: "Barlow Condensed", sans-serif;
     font-family: "Bellefair", sans-serif;
 }
+.space-body{
+    background-image: url(../images/spacebg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center bottom;
+    background-attachment: fixed;
+}
+@media (max-width:1000px){
+    .space-body {
+        background-image: url(../images/bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center bottom;
+        background-attachment: fixed;
+    }
+}
+@media (max-width:416px){
+    .space-body {
+        background-image: url(../images/space-body-bg.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center;
+        background-attachment: fixed;
+    }
+}
